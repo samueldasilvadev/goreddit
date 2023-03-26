@@ -35,11 +35,13 @@ Obs.: this project does not implements an architecture pattern, is only test.
 
 1. go initial config
 
+```
 go mod init samueldasilvadev.com/goreddit
 go get github.com/google/uuid
 go get github.com/gorilla/mux
 
 go mod download
+```
 
 2. Define entities:
 - Thread
