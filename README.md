@@ -8,6 +8,7 @@ Project structure:
 ├── cmd
 │   └── goreddit
 │       └── main.go
+├── .env.example
 ├── go.mod
 ├── goreddit.go
 ├── go.sum
