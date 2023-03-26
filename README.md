@@ -2,6 +2,8 @@
 
 Simple project based on course: https://course.gowebexamples.com/course.
 Project structure:
+
+```
 .
 ├── cmd
 │   └── goreddit
@@ -25,6 +27,7 @@ Project structure:
     └── templates
         ├── ThreadsCreate.html
         └── ThreadsList.html
+```
 
 Obs.: this project does not implements an architecture pattern, is only test.
 
@@ -43,6 +46,7 @@ go mod download
 - Post
 - Comment
 
+```
 +----------------+              +-------------------+
 |                |              |                   |
 |                |1           n |                   |
@@ -60,6 +64,7 @@ go mod download
                 |                  |                 
                 |                  |                 
                 +------------------+                 
+```
 
 3. Create Structs and Interfaces in goreddit.go
 
